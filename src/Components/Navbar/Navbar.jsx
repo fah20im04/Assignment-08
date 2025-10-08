@@ -54,7 +54,7 @@ const Navbar = () => {
               Apps
             </NavLink>
             <NavLink
-              to="/installation"
+              to="/installations"
               className={({ isActive }) =>
                 `text-sm font-medium ${isActive
                   ? "text-purple-600 border-b-2 border-purple-500"
