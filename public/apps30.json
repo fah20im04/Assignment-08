@@ -1,0 +1,911 @@
+[
+    {
+        "image": "https://static.thenounproject.com/png/1802390-512.png",
+        "title": "Chatify",
+        "companyName": "Chat Corp",
+        "id": 1,
+        "description": "A messaging app for fast and secure communication.",
+        "size": 45,
+        "reviews": 1200,
+        "ratingAvg": 4.5,
+        "downloads": 50,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 50
+            },
+            {
+                "name": "2 star",
+                "count": 30
+            },
+            {
+                "name": "3 star",
+                "count": 120
+            },
+            {
+                "name": "4 star",
+                "count": 400
+            },
+            {
+                "name": "5 star",
+                "count": 600
+            }
+        ]
+    },
+    {
+        "image": "https://static.thenounproject.com/png/2479421-512.png",
+        "title": "FitnessPro",
+        "companyName": "HealthTech",
+        "id": 2,
+        "description": "Track your workouts and stay fit with personalized plans.",
+        "size": 60,
+        "reviews": 800,
+        "ratingAvg": 4.2,
+        "downloads": 25,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 20
+            },
+            {
+                "name": "2 star",
+                "count": 40
+            },
+            {
+                "name": "3 star",
+                "count": 100
+            },
+            {
+                "name": "4 star",
+                "count": 300
+            },
+            {
+                "name": "5 star",
+                "count": 340
+            }
+        ]
+    },
+    {
+        "image": "https://static.thenounproject.com/png/3130776-512.png",
+        "title": "PhotoSnap",
+        "companyName": "SnapSoft",
+        "id": 3,
+        "description": "Capture and edit your photos with professional tools.",
+        "size": 70,
+        "reviews": 1500,
+        "ratingAvg": 4.7,
+        "downloads": 75,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 30
+            },
+            {
+                "name": "2 star",
+                "count": 20
+            },
+            {
+                "name": "3 star",
+                "count": 150
+            },
+            {
+                "name": "4 star",
+                "count": 500
+            },
+            {
+                "name": "5 star",
+                "count": 800
+            }
+        ]
+    },
+    {
+        "image": "https://static.thenounproject.com/png/2479421-512.png",
+        "title": "Foodies",
+        "companyName": "Gourmet Inc",
+        "id": 4,
+        "description": "Order food online from your favorite restaurants.",
+        "size": 55,
+        "reviews": 2000,
+        "ratingAvg": 4.3,
+        "downloads": 90,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 60
+            },
+            {
+                "name": "2 star",
+                "count": 80
+            },
+            {
+                "name": "3 star",
+                "count": 200
+            },
+            {
+                "name": "4 star",
+                "count": 700
+            },
+            {
+                "name": "5 star",
+                "count": 960
+            }
+        ]
+    },
+    {
+        "image": "https://static.thenounproject.com/png/3130776-512.png",
+        "title": "TravelMate",
+        "companyName": "Wanderlust",
+        "id": 5,
+        "description": "Plan your trips and explore new destinations easily.",
+        "size": 80,
+        "reviews": 950,
+        "ratingAvg": 4.6,
+        "downloads": 40,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 15
+            },
+            {
+                "name": "2 star",
+                "count": 25
+            },
+            {
+                "name": "3 star",
+                "count": 100
+            },
+            {
+                "name": "4 star",
+                "count": 350
+            },
+            {
+                "name": "5 star",
+                "count": 460
+            }
+        ]
+    },
+    {
+        "image": "https://static.thenounproject.com/png/2479421-512.png",
+        "title": "BookHub",
+        "companyName": "ReadMore",
+        "id": 6,
+        "description": "Discover, read, and share books from around the world.",
+        "size": 40,
+        "reviews": 600,
+        "ratingAvg": 4.4,
+        "downloads": 30,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 10
+            },
+            {
+                "name": "2 star",
+                "count": 20
+            },
+            {
+                "name": "3 star",
+                "count": 80
+            },
+            {
+                "name": "4 star",
+                "count": 200
+            },
+            {
+                "name": "5 star",
+                "count": 290
+            }
+        ]
+    },
+    {
+        "image": "https://static.thenounproject.com/png/3130776-512.png",
+        "title": "MusicWave",
+        "companyName": "SoundLab",
+        "id": 7,
+        "description": "Stream music and create playlists with millions of songs.",
+        "size": 90,
+        "reviews": 3000,
+        "ratingAvg": 4.8,
+        "downloads": 120,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 40
+            },
+            {
+                "name": "2 star",
+                "count": 30
+            },
+            {
+                "name": "3 star",
+                "count": 200
+            },
+            {
+                "name": "4 star",
+                "count": 900
+            },
+            {
+                "name": "5 star",
+                "count": 1830
+            }
+        ]
+    },
+    {
+        "image": "https://static.thenounproject.com/png/2479421-512.png",
+        "title": "WeatherNow",
+        "companyName": "ClimateTech",
+        "id": 8,
+        "description": "Get accurate weather forecasts and alerts for your city.",
+        "size": 35,
+        "reviews": 1100,
+        "ratingAvg": 4.1,
+        "downloads": 45,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 50
+            },
+            {
+                "name": "2 star",
+                "count": 60
+            },
+            {
+                "name": "3 star",
+                "count": 150
+            },
+            {
+                "name": "4 star",
+                "count": 400
+            },
+            {
+                "name": "5 star",
+                "count": 440
+            }
+        ]
+    },
+    {
+        "image": "https://static.thenounproject.com/png/2479421-512.png",
+        "title": "NoteMaster",
+        "companyName": "EduTech",
+        "id": 9,
+        "description": "Take and organize your notes efficiently.",
+        "size": 50,
+        "reviews": 1300,
+        "ratingAvg": 4.6,
+        "downloads": 60,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 30
+            },
+            {
+                "name": "2 star",
+                "count": 20
+            },
+            {
+                "name": "3 star",
+                "count": 100
+            },
+            {
+                "name": "4 star",
+                "count": 400
+            },
+            {
+                "name": "5 star",
+                "count": 750
+            }
+        ]
+    },
+    {
+        "image": "https://static.thenounproject.com/png/3130776-512.png",
+        "title": "TaskMaster",
+        "companyName": "Productivity Inc",
+        "id": 10,
+        "description": "Manage your tasks and to-do lists effectively.",
+        "size": 60,
+        "reviews": 1100,
+        "ratingAvg": 4.4,
+        "downloads": 50,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 40
+            },
+            {
+                "name": "2 star",
+                "count": 30
+            },
+            {
+                "name": "3 star",
+                "count": 150
+            },
+            {
+                "name": "4 star",
+                "count": 400
+            },
+            {
+                "name": "5 star",
+                "count": 480
+            }
+        ]
+    },
+    {
+        "image": "https://static.thenounproject.com/png/2479421-512.png",
+        "title": "FitTrack",
+        "companyName": "HealthTech",
+        "id": 11,
+        "description": "Track your fitness progress and set goals.",
+        "size": 55,
+        "reviews": 900,
+        "ratingAvg": 4.3,
+        "downloads": 40,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 20
+            },
+            {
+                "name": "2 star",
+                "count": 30
+            },
+            {
+                "name": "3 star",
+                "count": 100
+            },
+            {
+                "name": "4 star",
+                "count": 300
+            },
+            {
+                "name": "5 star",
+                "count": 450
+            }
+        ]
+    },
+    {
+        "image": "https://static.thenounproject.com/png/3130776-512.png",
+        "title": "ShopEase",
+        "companyName": "RetailTech",
+        "id": 12,
+        "description": "Shop online with ease and convenience.",
+        "size": 65,
+        "reviews": 1500,
+        "ratingAvg": 4.7,
+        "downloads": 70,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 30
+            },
+            {
+                "name": "2 star",
+                "count": 20
+            },
+            {
+                "name": "3 star",
+                "count": 150
+            },
+            {
+                "name": "4 star",
+                "count": 500
+            },
+            {
+                "name": "5 star",
+                "count": 800
+            }
+        ]
+    },
+    {
+        "image": "https://static.thenounproject.com/png/2479421-512.png",
+        "title": "NewsNow",
+        "companyName": "MediaTech",
+        "id": 13,
+        "description": "Stay updated with the latest news and articles.",
+        "size": 40,
+        "reviews": 800,
+        "ratingAvg": 4.2,
+        "downloads": 30,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 10
+            },
+            {
+                "name": "2 star",
+                "count": 20
+            },
+            {
+                "name": "3 star",
+                "count": 50
+            },
+            {
+                "name": "4 star",
+                "count": 200
+            },
+            {
+                "name": "5 star",
+                "count": 520
+            }
+        ]
+    },
+    {
+        "image": "https://static.thenounproject.com/png/1802390-512.png",
+        "title": "Chatify",
+        "companyName": "Chat Corp",
+        "id": 1,
+        "description": "A messaging app for fast and secure communication.",
+        "size": 45,
+        "reviews": 1200,
+        "ratingAvg": 4.5,
+        "downloads": 50,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 50
+            },
+            {
+                "name": "2 star",
+                "count": 30
+            },
+            {
+                "name": "3 star",
+                "count": 120
+            },
+            {
+                "name": "4 star",
+                "count": 400
+            },
+            {
+                "name": "5 star",
+                "count": 600
+            }
+        ]
+    },
+    {
+        "image": "https://static.thenounproject.com/png/2479421-512.png",
+        "title": "FitnessPro",
+        "companyName": "HealthTech",
+        "id": 2,
+        "description": "Track your workouts and stay fit with personalized plans.",
+        "size": 60,
+        "reviews": 800,
+        "ratingAvg": 4.2,
+        "downloads": 25,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 20
+            },
+            {
+                "name": "2 star",
+                "count": 40
+            },
+            {
+                "name": "3 star",
+                "count": 100
+            },
+            {
+                "name": "4 star",
+                "count": 300
+            },
+            {
+                "name": "5 star",
+                "count": 340
+            }
+        ]
+    },
+    {
+        "image": "https://static.thenounproject.com/png/3130776-512.png",
+        "title": "PhotoSnap",
+        "companyName": "SnapSoft",
+        "id": 3,
+        "description": "Capture and edit your photos with professional tools.",
+        "size": 70,
+        "reviews": 1500,
+        "ratingAvg": 4.7,
+        "downloads": 75,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 30
+            },
+            {
+                "name": "2 star",
+                "count": 20
+            },
+            {
+                "name": "3 star",
+                "count": 150
+            },
+            {
+                "name": "4 star",
+                "count": 500
+            },
+            {
+                "name": "5 star",
+                "count": 800
+            }
+        ]
+    },
+    {
+        "image": "https://static.thenounproject.com/png/7216290-512.png",
+        "title": "Foodies",
+        "companyName": "Gourmet Inc",
+        "id": 4,
+        "description": "Order food online from your favorite restaurants.",
+        "size": 55,
+        "reviews": 2000,
+        "ratingAvg": 4.3,
+        "downloads": 90,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 60
+            },
+            {
+                "name": "2 star",
+                "count": 80
+            },
+            {
+                "name": "3 star",
+                "count": 200
+            },
+            {
+                "name": "4 star",
+                "count": 700
+            },
+            {
+                "name": "5 star",
+                "count": 960
+            }
+        ]
+    },
+    {
+        "image": "https://static.thenounproject.com/png/7327938-512.png",
+        "title": "TravelMate",
+        "companyName": "Wanderlust",
+        "id": 5,
+        "description": "Plan your trips and explore new destinations easily.",
+        "size": 80,
+        "reviews": 950,
+        "ratingAvg": 4.6,
+        "downloads": 40,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 15
+            },
+            {
+                "name": "2 star",
+                "count": 25
+            },
+            {
+                "name": "3 star",
+                "count": 100
+            },
+            {
+                "name": "4 star",
+                "count": 350
+            },
+            {
+                "name": "5 star",
+                "count": 460
+            }
+        ]
+    },
+    {
+        "image": "https://static.thenounproject.com/png/7070260-512.png",
+        "title": "BookHub",
+        "companyName": "ReadMore",
+        "id": 6,
+        "description": "Discover, read, and share books from around the world.",
+        "size": 40,
+        "reviews": 600,
+        "ratingAvg": 4.4,
+        "downloads": 30,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 10
+            },
+            {
+                "name": "2 star",
+                "count": 20
+            },
+            {
+                "name": "3 star",
+                "count": 80
+            },
+            {
+                "name": "4 star",
+                "count": 200
+            },
+            {
+                "name": "5 star",
+                "count": 290
+            }
+        ]
+    },
+    {
+        "image": "https://static.thenounproject.com/png/7951493-512.png",
+        "title": "MusicWave",
+        "companyName": "SoundLab",
+        "id": 7,
+        "description": "Stream music and create playlists with millions of songs.",
+        "size": 90,
+        "reviews": 3000,
+        "ratingAvg": 4.8,
+        "downloads": 120,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 40
+            },
+            {
+                "name": "2 star",
+                "count": 30
+            },
+            {
+                "name": "3 star",
+                "count": 200
+            },
+            {
+                "name": "4 star",
+                "count": 900
+            },
+            {
+                "name": "5 star",
+                "count": 1830
+            }
+        ]
+    },
+    {
+        "image": "https://static.thenounproject.com/png/7070231-512.png",
+        "title": "WeatherNow",
+        "companyName": "ClimateTech",
+        "id": 8,
+        "description": "Get accurate weather forecasts and alerts for your city.",
+        "size": 35,
+        "reviews": 1100,
+        "ratingAvg": 4.1,
+        "downloads": 45,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 50
+            },
+            {
+                "name": "2 star",
+                "count": 60
+            },
+            {
+                "name": "3 star",
+                "count": 150
+            },
+            {
+                "name": "4 star",
+                "count": 400
+            },
+            {
+                "name": "5 star",
+                "count": 440
+            }
+        ]
+    },
+    {
+        "image": "https://static.thenounproject.com/png/7327970-512.png",
+        "title": "NoteMaster",
+        "companyName": "EduTech",
+        "id": 9,
+        "description": "Take and organize your notes efficiently.",
+        "size": 50,
+        "reviews": 1300,
+        "ratingAvg": 4.6,
+        "downloads": 60,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 30
+            },
+            {
+                "name": "2 star",
+                "count": 20
+            },
+            {
+                "name": "3 star",
+                "count": 100
+            },
+            {
+                "name": "4 star",
+                "count": 400
+            },
+            {
+                "name": "5 star",
+                "count": 750
+            }
+        ]
+    },
+    {
+        "image": "https://static.thenounproject.com/png/7070260-512.png",
+        "title": "TaskMaster",
+        "companyName": "Productivity Inc",
+        "id": 10,
+        "description": "Manage your tasks and to-do lists effectively.",
+        "size": 60,
+        "reviews": 1100,
+        "ratingAvg": 4.4,
+        "downloads": 50,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 40
+            },
+            {
+                "name": "2 star",
+                "count": 30
+            },
+            {
+                "name": "3 star",
+                "count": 150
+            },
+            {
+                "name": "4 star",
+                "count": 400
+            },
+            {
+                "name": "5 star",
+                "count": 480
+            }
+        ]
+    },
+    {
+        "image": "https://static.thenounproject.com/png/2479421-512.png",
+        "title": "FitTrack",
+        "companyName": "HealthTech",
+        "id": 11,
+        "description": "Track your fitness progress and set goals.",
+        "size": 55,
+        "reviews": 900,
+        "ratingAvg": 4.3,
+        "downloads": 40,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 20
+            },
+            {
+                "name": "2 star",
+                "count": 30
+            },
+            {
+                "name": "3 star",
+                "count": 100
+            },
+            {
+                "name": "4 star",
+                "count": 300
+            },
+            {
+                "name": "5 star",
+                "count": 450
+            }
+        ]
+    },
+    {
+        "image": "https://static.thenounproject.com/png/3130776-512.png",
+        "title": "ShopEase",
+        "companyName": "RetailTech",
+        "id": 12,
+        "description": "Shop online with ease and convenience.",
+        "size": 65,
+        "reviews": 1500,
+        "ratingAvg": 4.7,
+        "downloads": 70,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 30
+            },
+            {
+                "name": "2 star",
+                "count": 20
+            },
+            {
+                "name": "3 star",
+                "count": 150
+            },
+            {
+                "name": "4 star",
+                "count": 500
+            },
+            {
+                "name": "5 star",
+                "count": 800
+            }
+        ]
+    },
+    {
+        "image": "https://static.thenounproject.com/png/2479421-512.png",
+        "title": "NewsNow",
+        "companyName": "MediaTech",
+        "id": 13,
+        "description": "Stay updated with the latest news and articles.",
+        "size": 40,
+        "reviews": 800,
+        "ratingAvg": 4.2,
+        "downloads": 30,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 10
+            },
+            {
+                "name": "2 star",
+                "count": 20
+            },
+            {
+                "name": "3 star",
+                "count": 50
+            },
+            {
+                "name": "4 star",
+                "count": 200
+            },
+            {
+                "name": "5 star",
+                "count": 520
+            }
+        ]
+    },
+    {
+        "image": "https://static.thenounproject.com/png/7327970-512.png",
+        "title": "TravelBuddy",
+        "companyName": "WanderTech",
+        "id": 14,
+        "description": "Find local guides and travel recommendations.",
+        "size": 75,
+        "reviews": 900,
+        "ratingAvg": 4.5,
+        "downloads": 35,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 15
+            },
+            {
+                "name": "2 star",
+                "count": 25
+            },
+            {
+                "name": "3 star",
+                "count": 120
+            },
+            {
+                "name": "4 star",
+                "count": 400
+            },
+            {
+                "name": "5 star",
+                "count": 540
+            }
+        ]
+    },
+    {
+    "image": "https://static.thenounproject.com/png/7327970-512.png",
+    "title": "TravelBuddy",
+    "companyName": "WanderTech",
+    "id": 14,
+    "description": "Find local guides and travel recommendations.",
+    "size": 75,
+    "reviews": 900,
+    "ratingAvg": 4.5,
+    "downloads": 35,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 540 }
+    ]
+  }
+]

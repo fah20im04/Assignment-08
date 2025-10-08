@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import logo from "../../assets/logo.png";
 import { Github } from "lucide-react";
@@ -24,7 +24,10 @@ const Navbar = () => {
 
 
             <div className="flex items-center space-x-2">
-              <img src={logo} alt="Hero.io" className="w-10 h-10" />
+              <Link to='/'>
+                <img src={logo} alt="Hero.io" className="w-10 h-10" />
+
+              </Link>
               <h1 className="font-bold text-blue-600 text-lg">HERO.IO</h1>
             </div>
           </div>

@@ -1,17 +1,15 @@
-import { Key } from 'lucide-react';
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router';
-import AllApps from '../AllApps/AllApps';
 import dwnld from '../../../assets/fi_9131795.png';
 import star from '../../../assets/fi_1828884.png';
+import { Link } from 'react-router';
 
-const Apps = () => {
+const AllApps = () => {
     const [apps, setApps] = useState([]);
 
     useEffect(() => {
         const fetchApps = async () => {
             try {
-                const res = await fetch('/apps8.json');
+                const res = await fetch('/apps30.json');
                 const data = await res.json();
                 setApps(data);
             } catch (error) {
@@ -26,7 +24,6 @@ const Apps = () => {
         <div>
             <Link to='/appsDetails'>
                 <div className="  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-6">
-
                     {apps.map(app => (
                         <div key={app.id} className='shadow-xl rounded-2xl p-2.5'>
 
@@ -41,33 +38,28 @@ const Apps = () => {
 
                                 <div className="flex items-center gap-1">
                                     <img src={dwnld} alt="" />
-                                    <span>{(app.downloads / 1000000).toFixed(1)}M</span>
+                                    <span>{(app.downloads)}M</span>
                                 </div>
 
 
-
-                            </div>
-                            <div className="flex items-center gap-1">
-                                <img src={star} alt="" />
-                                <span>{app.ratingAvg}</span>
+                                <div className="flex items-center gap-1">
+                                    <img src={star} alt="" />
+                                    <span>{app.ratingAvg}</span>
+                                </div>
                             </div>
 
 
                         </div>
 
-
                     ))}
+
+
 
                 </div>
             </Link>
-            <div className="col-span-full flex justify-center mt-6">
-                <Link to='/allApps'>
-                    <button className="btn btn-primary">Show All Apps</button>
-                </Link>
-            </div>
         </div>
 
     );
 };
 
-export default Apps;
+export default AllApps;
