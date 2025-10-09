@@ -36,13 +36,21 @@ export const router = createBrowserRouter([
             {
                 path: '/appsDetails/:id',
                 loader: () => fetch('/apps30.json'),
-                element: <AppsDetails />
+                element: (
+                    <React.Suspense fallback={<LoadingSpinner />}>
+                        <AppsDetails />
+                    </React.Suspense>
+                ),
 
             },
             {
                 path: "/installations",
                 loader: () => fetch('/apps30.json'),
-                Component: Installations
+                element: (
+                    <React.Suspense fallback={<LoadingSpinner />}>
+                        <Installations />
+                    </React.Suspense>
+                ),
             },
             {
                 path: '/loadingSpinner',
