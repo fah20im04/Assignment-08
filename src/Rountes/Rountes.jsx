@@ -1,40 +1,53 @@
-import React from 'react';
+import React, { lazy } from "react";
 import { createBrowserRouter } from "react-router-dom";
 import Home from '../Components/Pages/Home/Home';
 import Root from '../Components/Pages/Root/Root';
-import Apps from '../Components/Pages/Apps/Apps';
 import Installations from '../Components/Pages/Installations/Installations';
-import AllApps from '../Components/Pages/AllApps/AllApps';
 import AppsDetails from '../Components/Pages/AppsDetails/AppsDetails';
+import ErrorPage from '../Components/Pages/ErroPage/ErrorPage';
+import LoadingSpinner from '../Components/Pages/Loadingspiner/LoadingSpinner';
+
+const Apps = lazy(() => import('../Components/Pages/Apps/Apps'));
+const AllApps = lazy(() => import('../Components/Pages/AllApps/AllApps'));
 
 export const router = createBrowserRouter([
     {
         path: "/",
         Component: Root,
+        errorElement: <ErrorPage />,
         children: [
+            { path: "/", Component: Home },
             {
-                path: "/",
-                Component: Home
+                path: "/apps",
+                element: (
+                    <React.Suspense fallback={<LoadingSpinner />}>
+                        <Apps />
+                    </React.Suspense>
+                ),
             },
             {
-                path: '/apps',
+                path: "/allApps",
+                element: (
+                    <React.Suspense fallback={<LoadingSpinner />}>
+                        <AllApps />
+                    </React.Suspense>
+                ),
+            },
+            {
+                path: '/appsDetails/:id',
+                loader: () => fetch('/apps30.json'),
+                element: <AppsDetails />
 
-                Component: Apps
-
-            },
-            {
-                path: '/allApps',
-                Component: AllApps
-            },
-            {
-                path: '/appsDetails',
-                Component: AppsDetails
             },
             {
                 path: "/installations",
-
+                loader: () => fetch('/apps30.json'),
                 Component: Installations
-            }
+            },
+            {
+                path: '/loadingSpinner',
+                element: <LoadingSpinner />
+            },
         ]
     }
 ]);

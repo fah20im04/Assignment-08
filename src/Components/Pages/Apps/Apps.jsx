@@ -24,17 +24,20 @@ const Apps = () => {
 
     return (
         <div>
-            <Link to='/appsDetails'>
-                <div className="  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-6">
 
-                    {apps.map(app => (
-                        <div key={app.id} className='shadow-xl rounded-2xl p-2.5'>
+            <div className="  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-6">
+
+                {apps.map(app => (
+
+                    <Link key={app.id} to={`/appsDetails/${app.id}`}>
+                        <div className='shadow-xl rounded-2xl p-2.5'>
 
                             <div className='bg-[#D9D9D9] rounded-2xl p-6'>
                                 <img src={app.image} alt={app.title} />
                             </div>
                             <div className='p-2'>
-                                <h3 className='font-semibold text-md'>{app.description}</h3>
+                                <h2 className='font-bold text-xl'>{app.title}</h2>
+                                <h3 className='font-semibold text-sm'>{app.description}</h3>
                             </div>
 
                             <div className="flex items-center justify-between text-sm text-gray-600 ">
@@ -46,20 +49,21 @@ const Apps = () => {
 
 
 
-                            </div>
-                            <div className="flex items-center gap-1">
-                                <img src={star} alt="" />
-                                <span>{app.ratingAvg}</span>
+
+                                <div className="flex items-center gap-1">
+                                    <img src={star} alt="" />
+                                    <span>{app.ratingAvg}</span>
+                                </div>
                             </div>
 
 
                         </div>
+                    </Link>
 
+                ))}
 
-                    ))}
+            </div>
 
-                </div>
-            </Link>
             <div className="col-span-full flex justify-center mt-6">
                 <Link to='/allApps'>
                     <button className="btn btn-primary">Show All Apps</button>
